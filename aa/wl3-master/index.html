@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/quanxuan.js"></script>
+		<script src="js/xiala.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/wl.css" />
+		<link rel="stylesheet" type="text/css" href="css/xiala.css" />
+
+		<style type="text/css">
+			.icon {
+				width: 1.5em;
+				height: 1.5em;
+				margin-right: 2rem;
+				vertical-align: -0.15em;
+				fill: currentColor;
+				overflow: hidden;
+			}
+		</style>
+		
+		<script type="text/javascript" src="//at.alicdn.com/t/font_471584_5ttej7atw6pw4s4i.js">
+		</script>
+	</head>
+
+	<body>
+		<div class="top">
+			<div class="div1">
+				<div style="display: inline-block; width: 10rem;">
+					<img src="images/1.png" class="img1" />
+				</div>
+
+				<div class="div2">
+					<ul class="ul">
+						<li>
+							网龙科技
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							项目管理系统
+						</li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="zhong">
+			<div class="div3">
+
+				<div class="leftsidebar_box">
+					<div class="line"></div>
+					<dl class="system_log">
+						<dt onClick="changeImage()">项目管理<img src="images/off.png"></dt>
+						<dd class="first_dd">
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+					</dl>
+
+					<dl class="custom">
+						<dt onClick="changeImage()">任务管理<img src="images/off.png"></dt>
+						<dd class="first_dd">
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+					</dl>
+
+					<dl class="channel">
+						<dt>关键字<img src="images/off.png"></dt>
+						<dd class="first_dd">
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+					</dl>
+
+					<dl class="app">
+						<dt onClick="changeImage()">操作日志<img src="images/off.png"></dt>
+						<dd class="first_dd">
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+					</dl>
+
+					<dl class="cloud">
+						<dt>菜单管理<img src="images/off.png"></dt>
+						<dd class="first_dd">
+							<a href="#">aaaaa</a>
+						</dd>
+					</dl>
+
+					<dl class="syetem_management">
+						<dt>客户管理<img src="images/off.png"></dt>
+						<dd class="first_dd">
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+					</dl>
+
+					<dl class="source">
+						<dt>云网客管理<img src="images/off.png"></dt>
+						<dd class="first_dd">
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+						<dd>
+							<a href="#">aaaaa</a>
+						</dd>
+					</dl>
+
+					<dl class="statistics">
+						<dt>云网客<img src="images/off.png"></dt>
+						<dd class="first_dd">
+							<a href="#">aaaaa</a>
+						</dd>
+					</dl>
+
+				</div>
+
+			</div>
+			<div class="div4">
+				<div class="div2">
+					<input type="text" class="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;姓名" />
+					<input type="button" class="btn1" value="查询" />
+					<input type="button" class="btn2" value="新增" />
+					<input type="button" class="btn3" value="返回" />
+				</div>
+				<table class="table table-hover">
+
+					<thead>
+						<tr>
+							<th class="th1"><input type="checkbox" name="" id="selectAll" value="" /></th>
+							<th class="th2">#</th>
+							<th class="th3">客户</th>
+							<th class="th3">账号</th>
+							<th class="th4">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="th1"><input type="checkbox" name="" id="" value="" /></td>
+							<td>81</td>
+							<td>青城艺景</td>
+							<td>青城艺景</td>
+							<td class="th4">
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-sousuo"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-icon_doc"></use>
+									</svg>
+								</a>
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-modify"></use>
+									</svg>
+								</a>
+								
+								<a href="">
+									<svg class="icon" aria-hidden="true">
+										<use xlink:href="#icon-delete"></use>
+									</svg>
+								</a>
+							</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+
+</html>
